@@ -1,10 +1,11 @@
-@import url(./fonts.css);
+@import url(../fonts.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -12,4 +13,85 @@ a {
 ul {
     list-style: none;
 }
+
+p {
+    font-family: "Big Shoulders Displey";
+}
+
+
+.components {
+    width: 1440px;
+    height: 800px;
+    background: #F2F2F2;
+    padding-top: 171px;
+    padding-bottom: 129px;
+    padding-left: 258px;
+    padding-right: 258px;
+}
+
+
+.components-card {
+    width: 920px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+.components-card__item:nth-child(1) {
+    background-color: #E28625;
+}
+
+.components-card__item:nth-child(2) {
+    background-color: #006971;
+}
+
+.components-card__item:nth-child(3) {
+    background-color: #004140;
+}
+
+.components-card__item {
+    width: 307px;
+    height: 500px;
+    border-radius: 8px;
+    padding-left: 48px;
+    padding-top: 48px;
+}
+
+.components-card__icon {
+    width: 64px;
+    height: 40px;
+    display: inline;
+}
+
+.components-card__name {
+    color: #F2F2F2;
+    font-family: "BigShouldersDisplay";
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+.components-card__desc {
+    width: 212px;
+    padding-top: 25px;
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    margin-bottom: 83px;
+}
+
+.components-card__btn {
+    color: #E28625;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    weight: 400;
+    border-radius: 25px;
+    background: #F2F2F2;
+    padding: 11px 31px;
+}
+
+
+
+   
 
